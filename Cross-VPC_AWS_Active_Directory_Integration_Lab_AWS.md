@@ -56,7 +56,7 @@ The operation returned because the timeout period expired. (0x000005B4 ERROR_TIM
 ---
 
 ### **2. Security Group Rules**
-
+EC2 dashboard -> Network interfaces -> check on each ENI -> Security groups -> Open and edit inbound rules. 
 #### On AD’s Security Group (ENIs for Directory Service):
 
 Allow inbound from `172.31.0.0/16` for:
